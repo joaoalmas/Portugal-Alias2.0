@@ -1,1 +1,6 @@
-a
+(LPPC FIR) **Installation guide**
+
+1. Download the GitHub repository and extract the files into a new folder or a different location.
+2. Navigate to the EuroScope program installation folder, typically located at C:\Program Files\EuroScope.
+3. Open the "LPPC" folder and paste the "x" file into it.
+4. Open the "Alias" folder and replace the existing alias.txt file with the new version.
