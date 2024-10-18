@@ -1,7 +1,56 @@
 ;=========================================================================================================================;
-;                                                                                                                         ;
-;  ALL RIGHTS RESERVED © João Almas | CID(1655929) ©. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!                ;
-;                                                                                                                         ;
-;=========================================================================================================================;
-;  AIRAC 2408/1  ++  Valid period: 20/OCT/2024 - NEW SIGNIFICANT AIRAC  ++  File-Publisher: João Almas                    ;
-;=========================================================================================================================;
+;
+;***********************
+; Generic Alias commands
+;***********************
+;
+.pm Pass your message.
+.ri Report intentions.
+.sb Standby.
+.go Go ahead
+.un Unable.
+;
+;***********************
+; RADAR contact commands
+;**********************
+;
+.av Confirm able to receive voice?
+.rt Radar services terminated.
+.rc Radar contact.
+.id Identified.
+;
+;***********************
+; Transponder mode comms
+;***********************
+;
+.sqa Squawk $asquawk.
+.sqc Squawk CHARLIE.
+.sqs Squawk STANDBY.
+.sqi Squawk IDENT.
+;
+;***********************
+; FLP approval clearnace
+;***********************
+;
+.read Readback correct. Report ready for departure :)
+.nfpl .msg $aircraft FPL UPDATED DUE TO REROUTE, NEW ROUTE $route.
+.even For your direction of flight an even FL is required. Advise FL$1 or FL$2.
+.oodd For your direction of flight, an odd FL is required. Advise FL$1 or FL$2.
+.iniatis Information $atiscode, QNH $altim($dep). | Cleared to $arr, $sid departure, initial climb $alt, squawk $asquawk.
+.clratis Information $atiscode, QNH $altim($dep). | Cleared to $arr, $sid departure, squawk $asquawk. 
+.ininoatis Runway in use $deprwy, winds $wind, QNH $altim($dep). Cleared to $arr, $sid departure, initial climb $alt, squawk $asquawk.
+.clrnoatis Runway in use $deprwy, winds $wind, QNH $altim($dep). Cleared to $arr, $sid departure, squawk $asquawk.
+;
+;***********************
+; Push & start clearance
+;***********************
+;
+.start Start up approved. Report ready for taxi
+.psa05 Push and start approved, facing runway 05.
+.psa23 Push and start approved, facing runway 23.
+.psafn Push and start approved facing North.
+.psafs Push and start approved facing South.
+.psafw Push and start approved facing West.
+.psafe Push and start approved facing East.
+.psa Pusha and start approved. Report ready for taxi
+;
