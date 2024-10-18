@@ -3,8 +3,7 @@
 ;  ALL RIGHTS RESERVED © João Almas | CID(1655929) ©. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!                ;
 ;                                                                                                                         ;
 ;=========================================================================================================================;
-;  AIRAC 2408/1  ++  Valid period: 20/OCT/2024 - NEW SIGNIFICANT AIRAC  ++  File-Publisher: João Almas                    ;
-;=========================================================================================================================;
+;  AIRAC 2408/1  ++  Valid period: 01/SEP/2024 - NEW AIRAC IS PUBLISHED  ++  File-Publisher: João Almas                   ;
 ;=========================================================================================================================;
 ;
 ;***********************
@@ -61,3 +60,183 @@
 .psafe Push and start approved facing East.
 .psa Pusha and start approved. Report ready for taxi
 ;
+;***********************
+; Taxi instructions LPPT
+;***********************
+;
+.02st Taxi to stand $1, via $2
+.02zm Taxi to holding point M, runway 02, via taxiway Z and M.
+.02tm Taxi to holding point M, runway 02, via taxiway Y, T, M.
+.02lm Taxi to holding point M, runway 02, via taxiway L and M.
+.02mm Taxi to holding point M, runway 02, via taxiway M to M.
+.02wg Taxi to holding point N, runway 02, via W, Q, G,U and N.
+.02gu Taxi to holding point N, runway 02, via taxiway G and U.
+.02fu Taxi to holding point N, runway 02, via taxiway F and U.
+;
+.20st Taxi to stand $1, via $2.
+.20aa Taxi to holding point A, runway 20, via taxiway A.
+.20au Taxi to holding point U, runway 20, via taxiway A and U.
+.20mt Taxi to holding point T, runway 20, via taxiway M and T.
+.20ayt Taxi to holding point T, runway 20, via taxiway A, Y, T.
+.20atu Taxi to holding point U, runway 20, via taxiway A, T, U.
+.20waa Taxi to holding point A, runway 20, via taxiway W and A.
+.20wau Taxi to holding point U, runway 20, via taxiway A and U.
+.20mtu Taxi to holding point U, runway 20, via taxiway M and T.
+.20gqt Taxi to holding point T, runway 20, via taxiway G, Q, T.
+.20gqu Taxi to holding point G, runway 20, via taxiway G, Q, U.
+.20zmt Taxi to holding point T, runway 20, via Z$1, M, T to T.
+.20zmtu Taxi to holding point U, runway 20, via Z$1, M, T to U.
+;
+;***********************
+; Taxi instructions LPPR
+;***********************
+;
+.ptstd Taxi to stand $1 via taxiway $2.
+.ptr35 Taxi to holding point $1, runway 35, via S.
+.ptr17 Taxi to holding point $1, runway 17, via E.
+.ablef Confirm able to depart from intersection F, runway 17?
+;
+;***********************
+; Taxi instructions LPFR
+;***********************
+;
+.ftra Taxi holding point P, runway $deprwy, via A and P.
+.ftrb Taxi holding point P, runway $deprwy, via B and P.
+.ftrc Taxi holding point P, runway $deprwy, via C and P.
+.ftrd Taxi holding point P, runway $deprwy, via D and P.
+.ftsa Taxi to stand $1 via taxiway A.
+.ftsb Taxi to stand $1 via taxiway B.
+.ftsc Taxi to stand $1 via taxiway C.
+.ftsd Taxi to stand $1 via taxiway D.
+;
+;***********************
+; Taxi instructions LPMA
+;***********************
+;
+.mtst Taxi to stand $1, via $1.o stand $1, via $1.
+.mtrb Taxi to holding point B, runway 05, via taxiway B.
+.mtrc Taxi to holding point C, runway 23, via taxiway C.
+;
+;***********************
+; Departure instructions
+;***********************
+;
+.dep Wind $wind, runway $deprwy cleared for takeoff.
+.depg Wind $wind, runway $deprwy cleared for takeoff. Goodbye.
+.depa After departure contact Lisboa Approach on 119.100. Wind $wind, runway $deprwy cleared for takeoff.
+.depc After departure contact Lisboa Control on 125.550. Wind $wind, runway $deprwy cleared for takeoff.
+.lnup Line up and wait runway $deprwy.
+.back Backtrack and line up approved, runway $deprwy.
+.blup Behind $1 traffic $deprwy, line up and wait runway $deprwy, behind.
+.blbk Behind $1 traffic $deprwy, backtrack and line up approved $deprwy, behind.
+;
+;***********************
+; ARR Arrival clearances
+;***********************
+;
+.ldg Wind $wind, runway $arrrwy cleared to land.
+.cap Continue approach. Wind check $winds.
+.lat Expect late landing clearance $winds.
+.goa Go around. Follow missed approach procedures.
+.goh Go around. Climb at runway heading. Contact $1.
+;
+;***********************
+; Navigation instruction
+;***********************
+;
+.navp Proceed direct to $1.
+.navb Descent to $alt.
+.navc Climb to $alt.
+;
+;***********************
+; Approaching clearances
+;***********************
+;
+.star Cleared $star arrival, runway $arrrwy. 
+.jstar Join $star arrival.
+.ils Expect ILS approach runway $arrrwy.
+.vor Expect VOR approach runway $arrrwy.
+.rnp	Expect RNP approach runway $arrrwy.
+.visa Expect Visual approach runway $arrrwy.
+.vord	Expect VOR DME approach runway $arrrwy.
+.cils Cleared ILS approach runway $arrrwy.
+.cvor	Cleared VOR approach runway $arrrwy.
+.cvord Cleared VOR DME approach runway $arrrwy.
+.crnp Cleared RNP approach runway $arrrwy.
+.crnpv Cleared RNP approach runway $arrrwy. Report visual.
+.cvis Cleared Visual approach runway $arrrwy.
+;
+;***********************
+; Holding patterns instr
+;***********************
+;
+.hold Hold at $1, $2 legs, $3 patterns.
+.ekmar Hold at EKMAR, inbound course 042 , 5nm legs, left hand pattern, speed 230 or less.
+.rinor Hold at RINOR, inbound course 224, 1 minute legs, left hand pattern, speed 230 or less.
+.adsad Hold at ADSAD, inbound course 343 , 5nm legs, right hand pattern, speed 230 or less.
+.umupi Hold at UMUPI, inbound course 181 , 5nm legs, right hand pattern, speed 230 or less.
+.abusu Hold at ABUSU, inbound course 211 , 4nm legs, right hand pattern, speed 230 or less.
+.pilim Hold at PILIM, inbound course 227 , 1 minute legs, right hand pattern, speed 230 or less.
+.fusul Hold at FUSUL, inbound course 350 , 5nm legs, left hand pattern, speed 230 or less.
+.gebti Hold at GEBTI, inbound course 278 , 5nm legs, left hand pattern, speed 230 or less.
+.retmo Hold at RETMO, inbound course 082 , 5nm legs, right hand pattern, speed 230 or less.
+.divut Hold at DIVUT, inbound course 313 , 5nm legs, left hand pattern, speed 230 or less.
+.hold02 Hold at ESP, inbound course 030, 1 minute legs, right hand pattern, speed 230 or less
+.hold20 Hold at RINOR, inbound course 224, 1 minute legs, left hand pattern, speed 230 or less
+;
+;***********************
+; Frequency handoff clea
+;***********************
+;
+.lppc Contact Lisboa Control on 125.550.
+.lppcn Contact Lisboa Control on 132.305.
+.lppcc Contact Lisboa Control on 136.030.
+.lppcs Contact Lisboa Control on 132.705.
+.lppcw Contact Lisboa Control on 131.325.
+.lppci Contact Lisboa Control on 132.255.
+.lppce Contact Lisboa Control on 132.850.
+.lppccu Contact Lisboa Control on 134.855.
+.lppcnu Contact Lisboa Control on 127.255.
+;
+.lpptd Contact Lisboa Delivery on 118.955.
+.lpptg Contact Lisboa Ground on 121.755.
+;
+.lppt3g Welcome to Lisboa. Vacate via H3 and G. Contact Ground on 121.755.
+.lppt3l Welcome to Lisboa. Vacate via H3 and L. Contact Ground on 121.755.
+.lppt1g Welcome to Lisboa. Vacate via H1 and G. Contact Ground on 121.755.
+.lppt1l Welcome to Lisboa. Vacate via H1 and L. Contact Ground on 121.755.
+.lppt4u Welcome to Lisboa. Vacate via H4 and U. Contact Ground on 121.755.
+;
+.lpptt Contact Lisboa Tower on 118.105.
+.lppts Stanby for Lisboa Tower on 118.105.
+.lpcst Contact Cascais Tower on 120.305.
+.lppta Contact Lisboa Approach on 119.105.
+.lpptf Contact Lisboa Arrivals on 125.130.
+.lpptw Contact Lisboa Control  on 123.980.
+;
+.lpprd Contact Porto Delivery on 118.955.
+.lpprg Contact Porto Ground on xxx.xxx.
+.lpprt Contact Porto Tower on 118.005.
+.lppra Contact Porto Approach on 120.910.
+.lpprc Contact Porto Control on 118.855.
+.lpfrg Contact Faro Ground on 118.580.
+.lpfrt Contact Faro Tower on 120.755.
+.lpfra Contact Faro Approach on 119.405.
+.lpmat Contact Madeira Tower on 124.660.
+.lpmaa Contact Madeira Approach on 119.605.
+.lppst Contact Porto Santo Tower on 120.055.
+;
+.eurow Contact EuroControl West on 132.250.
+.casab Contact Casablanca on 125.500.
+.madri Contact Madrid on 133.750.
+.sevil Contact Sevilla on 133.350.
+.canar Contact Canarias on 129.100.
+.unico Monitor UNICOM 122.800. Have a nice flight :)
+;
+;***********************
+; Other ALIAS advertisin
+;***********************
+;
+.charts You can find charts at http://charts.portugal-vacc.org/.
+.noobpt Ola, sugiro que visite os nossos sites, http://www.portugal-vacc.org/ -/- https://vatsim.net/docs/pilots/pilot-basics esperamos por si no nosso Discord para alguma ajuda que seja necess ria.
+.nooben I strongly suggest you to go to https://vatsim.net/docs/pilots/pilot-basics and read through the available documents.
