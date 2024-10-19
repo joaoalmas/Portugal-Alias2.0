@@ -5,8 +5,8 @@ Adapted for Portugal vACC use
 ----- ----- ----- ----- ----- ----- ----- -- ----- -- ---- ----- ----- ----- ----- ----- -----
 
 This document contains the procedures to be used during the installation of the Alias 2.0 file. 
-The Alias file 2.0 was created and lauched in an unofficial capacity and as an individual. Use 
-at your own risk. Please note that, as of xx October 2024, the Alias software is having some i
+The Alias file 3.0 was created and lauched in an unofficial capacity and as an individual. Use 
+at your own risk. Please note that, as of 20 October 2024, the Alias software is having some i
 ssues with catching values from Euroscope. For now the issue is contained for the auto-fill fu
 nction of $deprwy and $arrrwy.
 
@@ -15,7 +15,7 @@ nction of $deprwy and $arrrwy.
 
 1. Download the GitHub repository and extract the files into a new folder, or another location.
 2. Navigate to the EuroScope installation folder, typically located C: \Program Files\EuroScope
-3. Open the LPPC FIR folder. Here delete the current Alias manual and paste the "Alias 2.0 ref"
+3. Open the LPPC FIR folder. Here delete the current Alias manual and paste the "Alias 3.0 ref"
 4. In the LPPC folder open the Alias folder. Delete the current file and paste the Alias2.0.txt
 
 ----- ----- ----- ----- ----- ----- ----- -- ----- -- ---- ----- ----- ----- ----- ----- -----
@@ -23,5 +23,5 @@ nction of $deprwy and $arrrwy.
 
 1. Download the GitHub repository and extract the files into a new folder, or another location.
 2. Navigate to the EuroScope installation folder, typically located C: \Program Files\EuroScope
-3. Open the LPPO FIR folder. Here delete the current Alias manual and paste the "Alias 2.0 ref"
-4. In the LPPO folder open the Alias folder. Delete the current file and paste the Alias2.0.txt
+3. Open the LPPO FIR folder. Here delete the current Alias manual and paste the "Alias 3.0 ref"
+4. In the LPPO folder open the Alias folder. Delete the current file and paste the Alias3.0.txt
