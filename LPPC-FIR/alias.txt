@@ -3,7 +3,7 @@
 ;  ALL RIGHTS RESERVED © João Almas | CID(1655929) ©. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!                ;
 ;                                                                                                                         ;
 ;=========================================================================================================================;
-;  AIRAC 2408/1  ++  Valid period: 01/SEP/2024 - NEW AIRAC IS PUBLISHED  ++  File-Publisher: João Almas                   ;
+;  AIRAC 2408/1  ++  Valid period: 20/OCT/2024 - SIGNIFICANT ALTERATIONS ARE MADE  ++  File-Publisher: João Almas         ;
 ;=========================================================================================================================;
 ;
 ;***********************
